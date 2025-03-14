@@ -1,0 +1,120 @@
+
+
+
+
+Je souhaite créer une application web de gestion de mots de passe identique à ces captures d'écran, nommée Hydia.
+ÉLÉMENTS VISUELS REQUIS :
+
+Utiliser le dossier 'Hydia' contenant :
+
+Le logo Hydia (tête stylisée grise sur fond blanc)
+Les icônes des services (Notion, Microsoft, Google Meet, Autodesk, etc.)
+Les autres ressources graphiques
+
+
+
+AVANT DE CRER  LE GESTIONNAIRE ET DSES FONCTIONNALITZE, CRRER DABORD LUN PROJETS SIMPLE ET VIERGE POUR VERIFIER QUE TOUTE LES DEPENDANCE ET LES BASE SOIT OK 
+
+INTERFACE PRINCIPALE :
+
+HEADER EXACTE :
+
+
+Logo Hydia à gauche avec slogan "Manage less, secure more"
+Barre de recherche centrale (texte : "Rechercher un mot de passe...")
+Icônes droites : mode sombre/clair, soleil, cloche, "CG"
+
+
+SIDEBAR IDENTIQUE :
+
+
+Score de sécurité (93% en vert émeraude) avec animation circulaire
+Bouton "Ajouter un élément" (#10B981)
+Menu latéral avec icônes originales pour :
+
+Accueil
+Tous vos mots de passe (icône cadenas)
+Favoris (étoile)
+Récents (horloge)
+Catégories (dossier)
+
+Projets
+Travail
+Divers
+Logiciels
+Montages
+
+
+
+
+
+
+SECTION PRINCIPALE :
+
+
+Navigation : "Sites internet", "Identifiants"
+Liste des services avec exactement :
+
+Logo original du service (Notion, Microsoft, Google Meet, etc.)
+Nom du domaine (.com)
+Email associé (@hydia.com)
+Indicateur de force :
+
+Vert pour "Fort"
+Orange pour "Moyen"
+Rouge pour "Faible"
+
+
+Catégorie associée
+Horodatage ("il y a X jours/semaines")
+Étoile de favori à droite
+
+
+
+
+PANNEAU DROIT (quand actif) :
+
+
+Générateur de mot de passe avec curseur
+Options exactes :
+
+"Chiffres (0-9)"
+"Majuscules (A-Z)"
+"Caractères spéciaux (@&!)"
+
+
+Bouton "Confirmer le mot de passe"
+Conseils de sécurité en bas :
+
+"Changer le mot de passe pour chaque identifiant"
+"Créer des mots de passe complexes et aléatoires"
+"Modifiez fréquemment vos mots de passe"
+
+
+
+COULEURS EXACTES :
+
+Fond : #1E2028
+Vert accent : #10B981
+Rouge faible : #DC2626
+Gris texte secondaire : #9CA3AF
+
+TYPOGRAPHIE :
+
+Police système sans-serif moderne
+Tailles exactes :
+
+Logo : 18px
+Titres sections : 16px
+Texte standard : 14px
+Texte secondaire : 12px
+
+
+
+ESPACEMENT :
+
+Marges latérales : 24px
+Espacement entre éléments : 16px
+Padding interne cartes : 12px
+
+L'objectif est d'obtenir une réplique parfaite de l'interface montrée dans les captures d'écran, en utilisant exactement les mêmes ressources graphiques du dossier Hydia."

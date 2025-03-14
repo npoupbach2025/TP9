@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-background text-white;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent text-white px-4 py-2 rounded-lg hover:bg-opacity-90 transition-all;
+  }
+  
+  .input-search {
+    @apply bg-gray-800 text-white rounded-lg px-4 py-2 w-full focus:ring-2 focus:ring-accent focus:outline-none;
+  }
+
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-800;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-600 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-500;
+  }
+
+  /* Input range slider styles */
+  input[type="range"] {
+    @apply appearance-none bg-gray-700 h-2 rounded-lg;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    @apply appearance-none w-4 h-4 rounded-full bg-accent cursor-pointer;
+  }
+
+  /* Checkbox styles */
+  input[type="checkbox"] {
+    @apply rounded border-gray-600 text-accent focus:ring-accent focus:ring-offset-gray-900;
+  }
+
+  /* Transitions */
+  .transition-all {
+    @apply transition duration-200 ease-in-out;
+  }
+}
+
+/* Animation pour le score de sécurité */
+@keyframes fillCircle {
+  from {
+    stroke-dashoffset: 251.2;
+  }
+  to {
+    stroke-dashoffset: var(--target-offset);
+  }
+}
